@@ -28,7 +28,7 @@ serde_json = "1"
 # folder instead; adding a second dialog runtime just for a path picker would
 # make the Android build much heavier.
 [target.'cfg(not(any(target_os = "android", target_os = "ios")))'.dependencies]
-rfd = "0.15"
+rfd = "0.17"
 arboard = "3"
 
 # Native bridge used by the Android engine adapter. The Kotlin plugin calls

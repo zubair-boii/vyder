@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" data-theme="dark" data-accent="green">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vyder.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta
+      name="description"
+      content="Vyder — a quiet downloader for the videos you actually want."
+    />
+    <title>Vyder</title>
+    <script>
+      // Paint the last-known palette before React boots (no light flash).
+      try {
+        const saved = JSON.parse(localStorage.getItem("vyder.theme") || "null");
+        if (saved && saved.theme) {
+          document.documentElement.dataset.theme = saved.theme;
+          document.documentElement.dataset.accent = "green";
+        }
+      } catch {
+        /* keep the defaults */
+      }
+    </script>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

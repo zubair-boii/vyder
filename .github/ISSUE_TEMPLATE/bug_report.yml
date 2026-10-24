@@ -1,0 +1,70 @@
+name: Bug report
+description: Report a reproducible problem with Vyder.
+title: "[Bug]: "
+labels: ["bug", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. Please search existing issues first.
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - Android
+        - Web preview
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Vyder version
+      description: The version shown in Settings, or the release tag you installed.
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include the URL type, selected quality/format, and whether the app was in the foreground or background.
+      placeholder: |
+        1. Open Vyder
+        2. Paste ...
+        3. Tap ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Include the exact error text and, if possible, a screenshot or screen recording.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: |
+        Desktop: run `npm run desktop:dev` from a terminal and paste the relevant output.
+        Android: `adb logcat -s VyderEngine` while reproducing.
+      render: shell
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues and did not find a duplicate.
+          required: true
+        - label: I removed personal information from screenshots and logs.
+          required: true

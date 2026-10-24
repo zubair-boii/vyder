@@ -1,0 +1,46 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Build output
+src-tauri/target
+release
+src-tauri/gen/android/app/build
+src-tauri/gen/android/build
+src-tauri/gen/android/.gradle
+src-tauri/gen/android/.kotlin
+src-tauri/gen/android/buildSrc/.gradle
+src-tauri/gen/android/buildSrc/build
+src-tauri/gen/android/local.properties
+src-tauri/gen/android/key.properties
+src-tauri/gen/android/keystore.properties
+src-tauri/gen/android/app/src/main/jniLibs
+src-tauri/gen/android/.idea
+
+# Local Android Maven cache used by the prebuilt-.so packaging workaround
+.android-m2
+
+# Downloaded sidecars (run `pnpm tools:fetch`)
+src-tauri/binaries/*
+!src-tauri/binaries/.gitkeep
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

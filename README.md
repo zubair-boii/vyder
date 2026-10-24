@@ -1,6 +1,6 @@
 # Vyder
 
-[![CI](https://github.com/zubair_boii/vyder/actions/workflows/ci.yml/badge.svg)](https://github.com/zubair_boii/vyder/actions/workflows/ci.yml)
+[![CI](https://github.com/zubair-boii/vyder/actions/workflows/ci.yml/badge.svg)](https://github.com/zubair-boii/vyder/actions/workflows/ci.yml)
 [![Platforms](https://img.shields.io/badge/platforms-Windows%20%7C%20macOS%20%7C%20Linux%20%7C%20Android-1ed760)](#platform-support)
 [![Tauri 2](https://img.shields.io/badge/Tauri-2-24C8DB)](https://tauri.app)
 [![React 19](https://img.shields.io/badge/React-19-61DAFB)](https://react.dev)

@@ -3,7 +3,7 @@ name = "vyder"
 version = "0.1.0"
 description = "A quiet downloader for social video, on desktop and Android"
 authors = ["Vyder contributors"]
-repository = "https://github.com/zubair_boii/vyder"
+repository = "https://github.com/zubair-boii/vyder"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

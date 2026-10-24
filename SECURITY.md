@@ -9,7 +9,7 @@ Only the latest release and the `main` branch receive security fixes.
 Please do **not** open a public issue for a security problem.
 
 Use GitHub's private vulnerability reporting:
-<https://github.com/zubair_boii/vyder/security/advisories/new>
+<https://github.com/zubair-boii/vyder/security/advisories/new>
 
 Include:
 

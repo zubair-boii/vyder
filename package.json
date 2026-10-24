@@ -5,12 +5,12 @@
   "description": "A quiet downloader for social video, on desktop and Android.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zubair_boii/vyder.git"
+    "url": "https://github.com/zubair-boii/vyder.git"
   },
   "bugs": {
-    "url": "https://github.com/zubair_boii/vyder/issues"
+    "url": "https://github.com/zubair-boii/vyder/issues"
   },
-  "homepage": "https://github.com/zubair_boii/vyder#readme",
+  "homepage": "https://github.com/zubair-boii/vyder#readme",
   "type": "module",
   "packageManager": "pnpm@12.14.0",
   "scripts": {

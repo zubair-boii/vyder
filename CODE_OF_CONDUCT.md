@@ -53,7 +53,7 @@ or offline event.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported
 to the project maintainer through the contact options on the GitHub profile
-[`zubair_boii`](https://github.com/zubair_boii). All complaints will be reviewed and
+[`zubair-boii`](https://github.com/zubair-boii). All complaints will be reviewed and
 investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the

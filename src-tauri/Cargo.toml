@@ -35,7 +35,7 @@ arboard = "3"
 # these functions to report progress and completion back to the Rust state
 # machine that the rest of the app already uses.
 [target.'cfg(target_os = "android")'.dependencies]
-jni = "0.21"
+jni = "0.22"
 
 # Read the optimization guideline for more details: https://tauri.app/concept/size/#cargo-configuration
 [profile.release]
